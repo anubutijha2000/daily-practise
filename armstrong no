@@ -1,0 +1,13 @@
+n =input("enter a no to check whether it is armstrong or not")
+length =len(n)
+n=int(n)
+sum =0
+num =n
+while(n>0):
+  r =n%10
+  sum =sum+r**length
+  n =n//10
+if (sum ==num):
+ print("the no is armstrong")
+else:
+ print("the no is not armstrong")
